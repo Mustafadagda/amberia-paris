@@ -1,114 +1,316 @@
-<!doctype html>
+Tabii! Verdiğiniz tüm içerikleri **Fransızca, İngilizce, Almanca ve Türkçe olarak sıralı, HTML broşür tasarımı** içine yerleştirdim. Bu HTML hem QR kod ile paylaşılabilir hem de görselli ve satış odaklıdır:
+
+```html
+<!DOCTYPE html>
 <html lang="tr">
 <head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width,initial-scale=1">
-  <title>Kehribar - Diş Çıkarma Dönemi İçin Bilgi</title>
-  <meta name="description" content="Kehribar nedir, nasıl oluşur ve bebeklerin diş çıkarma döneminde nasıl yardımcı olur? Kısa ve güvenli bilgiler ile ürün bilgisi.">
-  <style>
-    :root{--bg:#fff;--muted:#6b7280;--accent:#8b5cf6;--card:#f8fafc;--maxw:720px}
-    *{box-sizing:border-box}
-    body{font-family:Inter, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial;line-height:1.5;color:#0f172a;margin:0;background:linear-gradient(180deg,#fbfdff 0%, #fff 100%);display:flex;align-items:center;justify-content:center;padding:28px}
-    .wrap{width:100%;max-width:var(--maxw);background:var(--card);border-radius:14px;padding:22px;box-shadow:0 8px 30px rgba(15,23,42,0.06)}
-    header{display:flex;gap:12px;align-items:center}
-    .logo{width:56px;height:56px;border-radius:10px;background:linear-gradient(135deg,#ffd7a8,#ffb66b);display:flex;align-items:center;justify-content:center;font-weight:700;color:#5a341a}
-    h1{font-size:20px;margin:0}
-    p.lead{margin:8px 0 14px;color:var(--muted);font-size:14px}
-    .section{background:#fff;padding:14px;border-radius:10px;margin-top:12px}
-    h2{font-size:16px;margin:0 0 8px}
-    ul{padding-left:18px;margin:6px 0}
-    li{margin:6px 0}
-    .badges{display:flex;gap:8px;flex-wrap:wrap;margin-top:10px}
-    .badge{background:#f1f5f9;border-radius:999px;padding:8px 10px;font-size:13px;color:#0f172a}
-    .cta{display:flex;gap:10px;margin-top:14px}
-    .btn{flex:1;padding:12px;border-radius:10px;text-align:center;text-decoration:none;font-weight:600}
-    .btn-primary{background:var(--accent);color:white}
-    .btn-outline{border:1px solid #e6eefc;background:transparent;color:var(--accent)}
-    footer{margin-top:16px;font-size:13px;color:var(--muted);text-align:center}
-    .muted{color:var(--muted)}
-    details{margin-top:8px}
-    summary{cursor:pointer;font-weight:600}
-    .small{font-size:13px;color:var(--muted)}
-    @media (max-width:520px){.wrap{padding:16px}.cta{flex-direction:column}}
-  </style>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Amber Brochure</title>
+<style>
+    body {
+        font-family: Arial, sans-serif;
+        background: #f7f7f7;
+        margin: 0;
+        padding: 0;
+        color: #333;
+    }
+    .section {
+        background: #fff;
+        max-width: 900px;
+        margin: 20px auto;
+        padding: 25px;
+        border-radius: 15px;
+        box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    }
+    h1 {
+        color: #ff8c00;
+        text-align: center;
+    }
+    h2 {
+        color: #2e8b57;
+        margin-top: 15px;
+    }
+    h3 {
+        color: #1e90ff;
+        margin-top: 15px;
+    }
+    ul {
+        margin-left: 20px;
+    }
+    .language {
+        font-weight: bold;
+        text-align: center;
+        color: #555;
+        margin-bottom: 10px;
+        font-size: 0.9em;
+    }
+    .intro {
+        background: #fff3e0;
+        padding: 10px;
+        border-left: 5px solid #ff8c00;
+        margin-bottom: 15px;
+        font-style: italic;
+    }
+</style>
 </head>
 <body>
-  <main class="wrap" role="main">
-    <header>
-      <div class="logo">K</div>
-      <div>
-        <h1>Kehribar: Doğal, Sıcak ve Benzersiz</h1>
-        <p class="lead">Kehribarın ne olduğu, nasıl oluştuğu ve bebeklerin diş çıkarma döneminde neden tercih edildiğine dair kısa ve güvenli bilgi.</p>
-      </div>
-    </header>
 
-    <section class="section" aria-labelledby="what">
-      <h2 id="what">Kehribar Nedir?</h2>
-      <p class="small">Kehribar, ağaçların salgıladığı reçinelerin milyonlarca yıl boyunca toprak, su ve basınç etkisiyle sertleşip fosilleşmesiyle oluşan <strong>doğal organik bir taştır</strong>. Hafif, sıcak bir dokusu ve kendine özgü renkleri vardır; tarih boyunca takı ve süs eşyası olarak kullanılmıştır.</p>
-    </section>
+<!-- TURKISH -->
+<div class="section">
+    <div class="language">TÜRKÇE</div>
+    <h1>🎨 KEHRİBAR BROŞÜRÜ</h1>
+    <div class="intro">
+        <strong>Kehribar Nedir?</strong><br>
+        Kehribar, milyonlarca yıl önce ağaçlardan akan reçinenin fosilleşmesiyle oluşmuş doğal bir taştır. Genellikle Baltık bölgesinde bulunur ve güzelliği ile şifa özellikleriyle değer görür.
+    </div>
+    <p><strong>DOĞAL ŞİFANIN GÜCÜNÜ KEŞFET!</strong></p>
+    <h2>🔥 Neden Kehribar Almalısınız?</h2>
+    <p>Bu broşürde kehribarın gerçek etkilerini keşfettikten sonra hangi ürünü seçmek istediğinize karar vermek çok kolay olacak! Doğal, şık ve sağlığa destek olan kehribar; kendiniz, çocuğunuz ve bebeğiniz için en güvenilir doğal seçeneklerden biridir.</p>
+    <h2>🟠 KEHRİBAR NEDİR?</h2>
+    <ul>
+        <li>🔶 Kehribar, milyonlarca yıl önce ağaçlardan akan reçinenin fosilleşmesiyle oluşmuş tamamen doğal ve değerli bir taştır.</li>
+        <li>🌟 İçindeki süksinik asit, vücut ısısıyla aktif hâle gelerek doğal rahatlama sağlar.</li>
+        <li>💎 Doğal, kimyasal içermez, alerji yapmaz, çocuk, yetişkin ve bebeklerin kullanımına uygundur.</li>
+    </ul>
+    <h2>🟢 YETİŞKİNLER İÇİN KEHRİBARIN FAYDALARI</h2>
+    <ul>
+        <li>✔ Stres ve kaygıyı azaltır</li>
+        <li>✔ Migren, baş ve boyun ağrılarını hafifletir</li>
+        <li>✔ Kas ve eklem ağrılarını destekler</li>
+        <li>✔ Bağışıklığı güçlendirir</li>
+        <li>✔ Yorgunluğu azaltır, enerji verir</li>
+        <li>✔ Tiroid bölgesinde dengeleyici etki sağlar</li>
+    </ul>
+    <h3>👤 Kimler Kullanmalı?</h3>
+    <ul>
+        <li>Ofis çalışanları</li>
+        <li>Çok stres yaşayanlar</li>
+        <li>Migreni olanlar</li>
+        <li>Eklem ve kas ağrısı yaşayanlar</li>
+    </ul>
+    <h2>🔵 ÇOCUKLAR İÇİN KEHRİBARIN FAYDALARI</h2>
+    <ul>
+        <li>✔ Huzursuzluğu azaltır</li>
+        <li>✔ Dikkati artırmaya yardımcı olur</li>
+        <li>✔ Doğal sakinlik sağlar</li>
+        <li>✔ Bağışıklığı destekler</li>
+        <li>✔ Alerji ve astım belirtilerinde rahatlatıcı etki sunabilir</li>
+        <li>✔ Büyüme ağrılarını hafifletebilir</li>
+    </ul>
+    <h3>📘 Kullanım Alanları</h3>
+    <ul>
+        <li>Okul stresinde</li>
+        <li>Uyku problemlerinde</li>
+        <li>Aşırı enerjili veya huzursuz çocuklarda</li>
+    </ul>
+    <p>🎁 Çocuk Setleri Mevcut! Kolyeler + Bileklikler avantajlı paket hâlinde.</p>
+    <h2>🍼 BEBEKLERDE KEHRİBARIN FAYDALARI</h2>
+    <ul>
+        <li>✔ Diş çıkarma ağrısını doğal olarak azaltır</li>
+        <li>✔ Ateş ve salya artışını dengeleyebilir</li>
+        <li>✔ Huzursuzluğu azaltır</li>
+        <li>✔ Uyku düzenini destekler</li>
+        <li>✔ Gaz ve karın sancısına yardımcı olabilir</li>
+        <li>✔ Bağışıklığı güçlendirir</li>
+    </ul>
+    <h3>🔐 Kullanım Önerileri</h3>
+    <ul>
+        <li>Bebekler için özel emniyet kilitli modeller tercih edilmelidir.</li>
+        <li>Uyku ve banyo sırasında çıkarılmalıdır.</li>
+        <li>Kolye yerine bileklik/halhal alternatifi kullanılabilir.</li>
+    </ul>
+</div>
 
-    <section class="section" aria-labelledby="how">
-      <h2 id="how">Nasıl Oluşur ve Nasıl Çıkarılır?</h2>
-      <p class="small">Kehribarın oluşumu basitçe şu adımlarla özetlenebilir:</p>
-      <ul>
-        <li>1) Ağaçların salgıladığı reçineler toprağa, suya veya kumlara karışır.</li>
-        <li>2) Milyonlarca yıl süren basınç ve kimyasal etkileşimle reçine sertleşir ve fosilleşir.</li>
-        <li>3) Kehribar, kıyı şeritlerinde (özellikle Baltık bölgesi gibi) denize vurmuş halde veya yeraltı yataklarında bulunur.</li>
-        <li>4) Madencilik ve dikkatli toplayıcı çalışmalarıyla çıkarılır; sonrasında cilalanarak ve işlenerek takıya dönüştürülür.</li>
-      </ul>
-    </section>
+<!-- FRENCH -->
+<div class="section">
+    <div class="language">FRANÇAIS</div>
+    <h1>🎨 BROCHURE AMBRE</h1>
+    <div class="intro">
+        <strong>Qu'est-ce que l'ambre ?</strong><br>
+        L'ambre est une résine fossilisée formée il y a des millions d'années. On le trouve principalement dans la région de la mer Baltique et il est apprécié pour sa beauté et ses propriétés curatives naturelles.
+    </div>
+    <p><strong>DÉCOUVREZ LE POUVOIR DE LA GUÉRISON NATURELLE !</strong></p>
+    <h2>🔥 Pourquoi acheter de l'ambre ?</h2>
+    <p>Après avoir découvert les véritables effets de l'ambre dans cette brochure, il vous sera très facile de choisir le produit qui vous convient ! Naturel, élégant et bénéfique pour la santé, l'ambre est l'option naturelle la plus fiable pour vous, votre enfant et votre bébé.</p>
+    <h2>🟠 QU'EST-CE QUE L'AMBRE ?</h2>
+    <ul>
+        <li>🔶 L'ambre est une résine fossilisée il y a des millions d'années, totalement naturelle et précieuse.</li>
+        <li>🌟 L'acide succinique qu'il contient s'active avec la chaleur du corps, offrant un soulagement naturel.</li>
+        <li>💎 Naturel, sans produits chimiques, hypoallergénique, adapté aux enfants, adultes et bébés.</li>
+    </ul>
+    <h2>🟢 LES BIENFAITS DE L'AMBRE POUR ADULTES</h2>
+    <ul>
+        <li>✔ Réduit le stress et l'anxiété</li>
+        <li>✔ Soulage migraines, maux de tête et douleurs cervicales</li>
+        <li>✔ Soutient douleurs musculaires et articulaires</li>
+        <li>✔ Renforce le système immunitaire</li>
+        <li>✔ Diminue la fatigue et augmente l'énergie</li>
+        <li>✔ Effet équilibrant sur la région de la thyroïde</li>
+    </ul>
+    <h3>👤 À qui s'adresse-t-il ?</h3>
+    <ul>
+        <li>Travailleurs de bureau</li>
+        <li>Personnes sous stress intense</li>
+        <li>Personnes souffrant de migraines</li>
+        <li>Personnes avec douleurs musculaires et articulaires</li>
+    </ul>
+    <h2>🔵 LES BIENFAITS DE L'AMBRE POUR LES ENFANTS</h2>
+    <ul>
+        <li>✔ Réduit l'agitation</li>
+        <li>✔ Aide à améliorer la concentration</li>
+        <li>✔ Apporte calme naturel</li>
+        <li>✔ Soutient le système immunitaire</li>
+        <li>✔ Effet apaisant sur allergies et asthme</li>
+        <li>✔ Peut soulager douleurs de croissance</li>
+    </ul>
+    <h3>📘 Domaines d'utilisation</h3>
+    <ul>
+        <li>Stress lié à l'école</li>
+        <li>Problèmes de sommeil</li>
+        <li>Enfants très énergiques ou agités</li>
+    </ul>
+    <p>🎁 Sets enfants disponibles ! Colliers + bracelets en packs avantageux.</p>
+    <h2>🍼 LES BIENFAITS DE L'AMBRE POUR LES BÉBÉS</h2>
+    <ul>
+        <li>✔ Soulage douleurs dentaires naturellement</li>
+        <li>✔ Peut réguler fièvre et salive excessive</li>
+        <li>✔ Réduit agitation</li>
+        <li>✔ Favorise sommeil régulier</li>
+        <li>✔ Aide contre coliques et maux de ventre</li>
+        <li>✔ Renforce système immunitaire</li>
+    </ul>
+    <h3>🔐 Conseils d'utilisation</h3>
+    <ul>
+        <li>Utiliser modèles spéciaux avec fermeture sécurité bébé</li>
+        <li>Retirer pendant sommeil et bain</li>
+        <li>Bracelet ou chevillettes alternative au collier</li>
+    </ul>
+</div>
 
-    <section class="section" aria-labelledby="teething">
-      <h2 id="teething">Diş Çıkarma Döneminde Sık Görülen Belirtiler</h2>
-      <p class="small">Her bebek farklıdır; belirtilerin türü ve şiddeti değişebilir. Aşağıdaki liste yaygın görülen belirtileri sıralar:</p>
-      <ul>
-        <li>✔ Aşırı salya akıtma</li>
-        <li>✔ Isırma isteği</li>
-        <li>✔ Huysuzluk / asabilik</li>
-        <li>✔ Uykunun bozulması</li>
-        <li>✔ Damaklarda hassasiyet</li>
-        <li>✔ Ağız çevresinde döküntü</li>
-      </ul>
-      <p class="small muted">Not: Bu belirtiler genel bilgilendirme amaçlıdır. Ciddi bir durum veya yüksek ateş görüldüğünde doktorunuza başvurun.</p>
-    </section>
+<!-- ENGLISH -->
+<div class="section">
+    <div class="language">ENGLISH</div>
+    <h1>🎨 AMBER BROCHURE</h1>
+    <div class="intro">
+        <strong>What is Amber?</strong><br>
+        Amber is fossilized tree resin formed millions of years ago. Mainly found around the Baltic Sea region, it is valued for its natural beauty and healing properties.
+    </div>
+    <p><strong>DISCOVER THE POWER OF NATURAL HEALING!</strong></p>
+    <h2>🔥 Why Should You Buy Amber?</h2>
+    <p>After discovering the real effects of amber in this brochure, choosing the right product for you will be very easy! Natural, stylish, and health-supporting, amber is the most reliable natural option for yourself, your child, and your baby.</p>
+    <h2>🟠 WHAT IS AMBER?</h2>
+    <ul>
+        <li>🔶 Amber is fossilized tree resin formed millions of years ago, completely natural and valuable.</li>
+        <li>🌟 Succinic acid activates with body heat, providing natural relief and calming energy.</li>
+        <li>💎 Natural, chemical-free, hypoallergenic, suitable for children, adults, and babies.</li>
+    </ul>
+    <h2>🟢 BENEFITS OF AMBER FOR ADULTS</h2>
+    <ul>
+        <li>✔ Reduces stress and anxiety</li>
+        <li>✔ Relieves migraines, headaches, and neck pain</li>
+        <li>✔ Supports muscle and joint pain</li>
+        <li>✔ Strengthens the immune system</li>
+        <li>✔ Reduces fatigue and increases energy</li>
+        <li>✔ Balances thyroid area</li>
+    </ul>
+    <h3>👤 Who Should Use It?</h3>
+    <ul>
+        <li>Office workers</li>
+        <li>People under high stress</li>
+        <li>Migraine sufferers</li>
+        <li>Those with muscle and joint pain</li>
+    </ul>
+    <h2>🔵 BENEFITS OF AMBER FOR CHILDREN</h2>
+    <ul>
+        <li>✔ Reduces restlessness</li>
+        <li>✔ Helps improve focus</li>
+        <li>✔ Provides natural calm</li>
+        <li>✔ Supports immune system</li>
+        <li>✔ Soothes allergy and asthma symptoms</li>
+        <li>✔ Can relieve growing pains</li>
+    </ul>
+    <h3>📘 Usage Areas</h3>
+    <ul>
+        <li>School-related stress</li>
+        <li>Sleep problems</li>
+        <li>Very energetic or restless children</li>
+    </ul>
+    <p>🎁 Children’s Sets Available! Collars + bracelets in advantageous packs.</p>
+    <h2>🍼 BENEFITS OF AMBER FOR BABIES</h2>
+    <ul>
+        <li>✔ Naturally reduces teething pain</li>
+        <li>✔ Can balance fever and excess saliva</li>
+        <li>✔ Reduces fussiness</li>
+        <li>✔ Supports regular sleep</li>
+        <li>✔ Helps with colic and stomach aches</li>
+        <li>✔ Strengthens immune system</li>
+    </ul>
+    <h3>🔐 Usage Recommendations</h3>
+    <ul>
+        <li>Use special models with baby-safe locking clasp</li>
+        <li>Remove during sleep and bath</li>
+        <li>Bracelet or ankle alternatives available instead of necklace</li>
+    </ul>
+</div>
 
-    <section class="section" aria-labelledby="products">
-      <h2 id="products">Kehribar Damla Kolyelerimiz</h2>
-      <p class="small">Aileler tarafından tercih edilen kehribar kolyelerimiz, konfor ve estetiği bir araya getirir. Kolyelerimiz; orijinal, sertifikalı kehribardan üretilir ve bebek kullanımına uygun ergonomik tasarıma sahiptir.</p>
-
-      <div class="badges">
-        <div class="badge">Orijinal &amp; Sertifikalı</div>
-        <div class="badge">Kişiye Özel Tasarım</div>
-        <div class="badge">Uzunluk Ayarlı</div>
-        <div class="badge">Uygun Fiyat Garantisi</div>
-        <div class="badge">Memnuniyet Garantisi</div>
-      </div>
-
-      <div class="cta">
-        <a class="btn btn-primary" href="https://www.instagram.com/p/DRFaTeaDAHJEYoRG73dUeaBe9OtSur-A0i8q4I0/?igsh=ZHU3NXdzb212cXln" role="button">Sipariş Ver</a>
-        <a class="btn btn-outline" href="https://www.instagram.com/p/DRFaTeaDAHJEYoRG73dUeaBe9OtSur-A0i8q4I0/?igsh=ZHU3NXdzb212cXln">Bilgi Al</a>
-      </div>
-      <p class="small" style="margin-top:8px">(Telefon veya online mağaza bağlantınızı yukarıdaki butonlara ekleyin.)</p>
-    </section>
-
-    <section class="section" aria-labelledby="safety">
-      <h2 id="safety">Güvenlik ve Kullanım Notu</h2>
-      <p class="small muted">Kehribar kolye kullanımında dikkat edilmesi gerekenler:</p>
-      <ul>
-
-        <li>• Herhangi bir alerjik reaksiyon şüphesinde kullanımı durdurun ve hekime başvurun.</li>
-        <li>• Ciddi tıbbi durumlarda doktorunuza danışın — bu sayfadaki bilgiler bilgilendirme amaçlıdır.</li>
-      </ul>
-    </section>
-
-    <details>
-      <summary>İletişim ve Garanti</summary>
-      <p class="small">E-posta: <a href="mailto:amberi.paris1@gmail.com">amberia.paris1@gmail.com</a><br>Telefon: +33 06 05 88 96 65 <br>Adres: Örnek Mah. Örnek Sok. No:1</p>
-    </details>
-
-    <footer>
-      <p class="small muted">Bu sayfa bilgilendirme amaçlı hazırlanmıştır. Ürünle ilgili detaylı sağlık iddiaları için lütfen yetkili kurum ve sağlık profesyonellerine başvurun.</p>
-    </footer>
-  </main>
-</body>
-</html>
+<!-- GERMAN -->
+<div class="section">
+    <div class="language">DEUTSCH</div>
+    <h1>🎨 AMBER-BROSCHÜRE</h1>
+    <div class="intro">
+        <strong>Was ist Bernstein?</strong><br>
+        Bernstein ist versteinertes Baumharz, das vor Millionen von Jahren entstand. Hauptsächlich in der Ostseeregion zu finden, wird es wegen seiner natürlichen Schönheit und heilenden Eigenschaften geschätzt.
+    </div>
+    <p><strong>ENTDECKEN SIE DIE KRAFT DER NATÜRLICHEN HEILUNG!</strong></p>
+    <h2>🔥 Warum sollten Sie Bernstein kaufen?</h2>
+    <p>Nachdem Sie die echten Wirkungen von Bernstein in dieser Broschüre kennengelernt haben, wird es sehr einfach sein, das richtige Produkt für sich auszuwählen! Natürlich, stilvoll und gesundheitsfördernd – Bernstein ist die zuverlässigste natürliche Wahl für Sie, Ihr Kind und Ihr Baby.</p>
+    <h2>🟠 WAS IST BERNSTEIN?</h2>
+    <ul>
+        <li>🔶 Bernstein ist vor Millionen von Jahren versteinertes Baumharz, völlig natürlich und wertvoll.</li>
+        <li>🌟 Bernsteinsäure wird durch Körperwärme aktiviert, bietet natürliche Linderung und beruhigt.</li>
+        <li>💎 Natürlich, chemiefrei, hypoallergen, geeignet für Kinder, Erwachsene und Babys.</li>
+    </ul>
+    <h2>🟢 VORTEILE VON BERNSTEIN FÜR ERWACHSENE</h2>
+    <ul>
+        <li>✔ Reduziert Stress und Angst</li>
+        <li>✔ Lindert Migräne, Kopfschmerzen und Nackenschmerzen</li>
+        <li>✔ Unterstützt bei Muskel- und Gelenkschmerzen</li>
+        <li>✔ Stärkt das Immunsystem</li>
+        <li>✔ Reduziert Müdigkeit und erhöht Energie</li>
+        <li>✔ Balanciert Schilddrüsenbereich</li>
+    </ul>
+    <h3>👤 Wer sollte es verwenden?</h3>
+    <ul>
+        <li>Büroangestellte</li>
+        <li>Menschen unter hohem Stress</li>
+        <li>Migränepatienten</li>
+        <li>Personen mit Muskel- und Gelenkschmerzen</li>
+    </ul>
+    <h2>🔵 VORTEILE VON BERNSTEIN FÜR KINDER</h2>
+    <ul>
+        <li>✔ Reduziert Unruhe</li>
+        <li>✔ Hilft Konzentration zu verbessern</li>
+        <li>✔ Bietet natürliche Ruhe</li>
+        <li>✔ Unterstützt Immunsystem</li>
+        <li>✔ Lindert Symptome von Allergien und Asthma</li>
+        <li>✔ Kann Wachstumsschmerzen lindern</li>
+    </ul>
+    <h3>📘 Anwendungsbereiche</h3>
+    <ul>
+        <li>Schulstress</li>
+        <li>Schlafprobleme</li>
+        <li>Sehr energiegeladene oder unruhige Kinder</li>
+    </ul>
+    <p>🎁 Kindersets verfügbar! Halsketten + Armbänder in Vorteilspaketen.</p>
+    <h2>🍼 VORTEILE VON BERNSTEIN FÜR BABYS</h2>
+    <ul>
+        <li>✔ Lindert Zahnungsschmerzen natürlich</li>
+        <li>✔ Kann Fieber und übermäßigen Speichelfluss regulieren</li>
+        <li>✔ Reduziert Unruhe</li>
+        <li>✔ Unterstützt regelmäßigen Schlaf</li>
+        <li>✔ Hilft bei Koliken und Bauchschmerzen</li>
+        <li>✔ Stärkt Immunsystem</li>
+    </ul>
+    <h3>🔐
+```
